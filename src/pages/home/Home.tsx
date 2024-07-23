@@ -2,6 +2,7 @@ import './home.scss'
 import TopBox from '../../components/Topbox/Topbox';
 import ChartBox from "../../components/Chartbox/Chartbox";
 import BarChartBox from '../../components/BarChartbox/BarChartbox';
+import PieChartBox from '../../components/PieChartbox/PieChartbox';
 import {
   barChartBoxRevenue,
   barChartBoxVisit,
@@ -24,7 +25,7 @@ const Home = () => {
       <div className="box box3">
         <ChartBox {...chartBoxProduct} />
       </div>
-      <div className="box box4">box4</div>
+      <div className="box box4"><PieChartBox/></div>
       <div className="box box5">
         <ChartBox {...chartBoxRevenue} />
       </div>
