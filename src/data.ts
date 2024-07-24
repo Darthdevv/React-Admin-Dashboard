@@ -239,7 +239,7 @@ export const chartBoxConversion = {
 
 export const barChartBoxRevenue = {
   title: "Profit Earned",
-  color: "#2abbcb",
+  color: "#00ffff",
   dataKey: "profit",
   chartData: [
     {
@@ -275,7 +275,7 @@ export const barChartBoxRevenue = {
 
 export const barChartBoxVisit = {
   title: "Total Visit",
-  color: "#ff31c8",
+  color: "#00ffbb",
   dataKey: "visit",
   chartData: [
     {
